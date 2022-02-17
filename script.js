@@ -15,7 +15,7 @@ let lowerCase = confirm("Would you like lowercase?");
 let specialCharacters = confirm("Would you like special characters?");
 let numbers = confirm("Would you like numbers?");
 
-charsSUL = (upperCase && lowerCase && specialCharacters && (numbers = false));
+charsSUL = (upperCase && lowerCase && specialCharacters && (numbers == false));
 charsSU = (specialCharacters && upperCase);
 charsUL = (upperCase && lowerCase);
 charsSL = (lowerCase && specialCharacters)
@@ -23,7 +23,7 @@ charsSULN = (upperCase && lowerCase && specialCharacters && numbers);
 charsSUN = (specialCharacters && upperCase && numbers);
 charsULN = (upperCase && lowerCase && numbers);
 
-console.log(passwordLength);
+console.log(length);
 console.log(upperCase);
 console.log(lowerCase);
 console.log(specialCharacters);
@@ -39,7 +39,7 @@ console.log(numbers);
 // function is from https://stackoverflow.com/a/16548229/17557927 - modified by me
 
 // if (charsSUL == true) {
-function password_generator() {
+function password_generator(len) {
   // var length = (len) ? (len) : (10);
   var string = "abcdefghijklmnopqrstuvwxyz"; //to upper 
   var numeric = '0123456789';
@@ -52,9 +52,9 @@ function password_generator() {
     entity2 = Math.ceil(numeric.length * Math.random() * Math.random());
     entity3 = Math.ceil(punctuation.length * Math.random() * Math.random());
     hold = string.charAt(entity1);
-    // if (uppercase = true) {
-    //   hold = (password.length % 2 == 0) ? (hold.toUpperCase()) : (hold);
-    // }
+    if (uppercase = true) {
+      hold = (password.length % 2 == 0) ? (hold.toUpperCase()) : (hold);
+    }
     character += hold;
     character += numeric.charAt(entity2);
     character += punctuation.charAt(entity3);
