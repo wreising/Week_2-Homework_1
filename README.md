@@ -7,12 +7,12 @@ https://github.com/wreising/Week_2-Homework_1/tree/main/password_generator
 -GIVEN I need a new, secure password
 -WHEN I click the button to generate a password
 -THEN I am presented with a series of prompts for password criteria
--WHEN prompted for password criteria
+-WHEN _prompted for password criteria_
 -THEN I select which criteria to include in the password
--WHEN prompted for the length of the password
+-WHEN _prompted for the length of the password_
 -THEN I choose a length of at least 8 characters and no more than 128 characters
--WHEN prompted for character types to include in the password
--THEN I choose lowercase, uppercase, numeric, and/or special characters
+-WHEN _prompted for character types to include in the password_
+-THEN I choose _lowercase, uppercase, numeric, and/or special characters_
 -WHEN I answer each prompt
 -THEN my input should be validated and at least one character type should be selected
 -WHEN all prompts are answered
