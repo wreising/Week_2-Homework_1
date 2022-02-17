@@ -40,7 +40,7 @@ console.log(numbers);
 
 // if (charsSUL == true) {
 function password_generator(len) {
-  var length = (len) ? (len) : (10);
+  var length = (len) ? (len) : (passlength);
   var stringLower = "abcdefghijklmnopqrstuvwxyz";
   var stringUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var numeric = '0123456789';
@@ -49,11 +49,11 @@ function password_generator(len) {
   var character = "";
   var crunch = true;
   while (password.length < length) {
-    if (lowerCase == true) {
-      entity1 = Math.ceil(stringLower.length * Math.random() * Math.random());
-    } else if (lowerCase == false) {
-      entity1 = null
-    }
+    // if (lowerCase == true) {
+    entity1 = Math.ceil(stringLower.length * Math.random() * Math.random());
+    // } else if (lowerCase == false) {
+    // entity1 = ""
+    // }
     entity11 = Math.ceil(stringUpper.length * Math.random() * Math.random());
     entity2 = Math.ceil(numeric.length * Math.random() * Math.random());
     entity3 = Math.ceil(punctuation.length * Math.random() * Math.random());
@@ -62,7 +62,11 @@ function password_generator(len) {
     // if (uppercase = true) {
     //   hold = (password.length % 2 == 0) ? (hold.toUpperCase()) : (hold);
     // }
-    character += hold;
+    if (lowerCase == true) {
+      character += hold;
+    } else if (lowerCase == false) {
+      character += ""
+    }
     character += hold11;
     character += numeric.charAt(entity2);
     character += punctuation.charAt(entity3);
