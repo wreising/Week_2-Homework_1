@@ -2,6 +2,8 @@
 
 https://github.com/wreising/Week_2-Homework_1/tree/branch2
 
+https://wreising.github.io/Week_2-Homework_1/
+
 ## Goals
 
 -GIVEN I need a new, secure password
