@@ -8,6 +8,7 @@ https://wreising.github.io/Week_2-Homework_1/
 
 ## Goals
 
+'
 -GIVEN I need a new, secure password
 -WHEN I click the button to generate a password
 -THEN I am presented with a series of prompts for password criteria
@@ -29,3 +30,4 @@ You are required to submit the following for review:
 * The URL of the deployed application.
 
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
+'
