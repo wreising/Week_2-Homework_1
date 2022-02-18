@@ -1,6 +1,6 @@
 # Week_2-Homework_1
 
-https://github.com/wreising/Week_2-Homework_1/tree/main/password_generator
+https://github.com/wreising/Week_2-Homework_1/tree/branch2
 
 ## Goals
 
