@@ -6,16 +6,29 @@ function password_again() {
   document.getElementById("password").innerHTML = "ok";
 }
 
+<<<<<<< HEAD
 // var btn = document.getElementById(Generate Password);
 
 // btn.addEventListener(“click”, password_generator());
+=======
+var btn = document.getElementById(Generate Password);
+
+btn.addEventListener(“click”, password_generator());
+>>>>>>> 5134b0e041bd9534f1d5c3c66a5f312e88d158f2
 
 function password_generator(len) {
 
   let passlength = prompt("Please enter your password length.");
+<<<<<<< HEAD
   if (passlength < 8 || passlength > 128) {
     alert("Passwords must be at least 8 characters or no more than 128 characters.");
     password_generator()
+=======
+  if (passlength < 8) {
+    passlength = prompt("Passwords must be at least 8 characters. Enter the number of characters you would like.");
+  } else if (passlength > 128) {
+    passlength = prompt("Passwords may not be greater that 128 characters. Enter the number of characters you would like.");
+>>>>>>> 5134b0e041bd9534f1d5c3c66a5f312e88d158f2
   }
   let upperCase = confirm("Would you like uppercase?");
   let lowerCase = confirm("Would you like lowercase?");
@@ -70,6 +83,10 @@ function password_generator(len) {
     password = character;
   }
   password = password.split('').sort(function () { return 0.5 - Math.random() }).join('');
+<<<<<<< HEAD
   document.getElementById('password').innerHTML = password.substr(0, len);
   // return password.substr(0, len);
+=======
+  return password.substr(0, len);
+>>>>>>> 5134b0e041bd9534f1d5c3c66a5f312e88d158f2
 }
