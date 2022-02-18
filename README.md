@@ -1,12 +1,12 @@
-#Week_2-Homework_1
+# Week_2-Homework_1
 
-##Random Password Generator.
+## Random Password Generator.
 
 https://github.com/wreising/Week_2-Homework_1/
 
 https://wreising.github.io/Week_2-Homework_1/
 
-##Goals
+## Goals
 
 ```
 GIVEN I need a new, secure password
