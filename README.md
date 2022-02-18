@@ -1,6 +1,6 @@
 # Week_2-Homework_1
 
-## Random Password Generator.
+## Random Password Generator
 
 https://github.com/wreising/Week_2-Homework_1/
 
