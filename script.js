@@ -15,14 +15,6 @@ let lowerCase = confirm("Would you like lowercase?");
 let specialCharacters = confirm("Would you like special characters?");
 let numbers = confirm("Would you like numbers?");
 
-// charsSUL = (upperCase && lowerCase && specialCharacters && (numbers == false));
-// charsSU = (specialCharacters && upperCase);
-// charsUL = (upperCase && lowerCase);
-// charsSL = (lowerCase && specialCharacters)
-// charsSULN = (upperCase && lowerCase && specialCharacters && numbers);
-// charsSUN = (specialCharacters && upperCase && numbers);
-// charsULN = (upperCase && lowerCase && numbers);
-
 console.log(passlength);
 console.log(upperCase);
 console.log(lowerCase);
