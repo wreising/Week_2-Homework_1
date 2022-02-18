@@ -8,7 +8,7 @@ https://wreising.github.io/Week_2-Homework_1/
 
 ## Goals
 
-''
+'''
 -GIVEN I need a new, secure password
 -WHEN I click the button to generate a password
 -THEN I am presented with a series of prompts for password criteria
@@ -24,7 +24,8 @@ https://wreising.github.io/Week_2-Homework_1/
 -THEN a password is generated that matches the selected criteria
 -WHEN the password is generated
 -THEN the password is either displayed in an alert or written to the page
-''
+'''
+
 You are required to submit the following for review:
 
 * The URL of the deployed application.
